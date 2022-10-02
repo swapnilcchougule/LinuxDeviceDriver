@@ -1,0 +1,1 @@
+cmd_/home/swapnil/Desktop/GIT/LinuxDeviceDriver/2.CharDriver/CharDriver.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/swapnil/Desktop/GIT/LinuxDeviceDriver/2.CharDriver/CharDriver.ko /home/swapnil/Desktop/GIT/LinuxDeviceDriver/2.CharDriver/CharDriver.o /home/swapnil/Desktop/GIT/LinuxDeviceDriver/2.CharDriver/CharDriver.mod.o;  true

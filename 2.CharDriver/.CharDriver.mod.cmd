@@ -1,0 +1,1 @@
+cmd_/home/swapnil/Desktop/GIT/LinuxDeviceDriver/2.CharDriver/CharDriver.mod := { echo  /home/swapnil/Desktop/GIT/LinuxDeviceDriver/2.CharDriver/CharDriver.o;  echo; } > /home/swapnil/Desktop/GIT/LinuxDeviceDriver/2.CharDriver/CharDriver.mod
