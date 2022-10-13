@@ -28,14 +28,14 @@ struct device *device_pcd;        // holds the device pointer
 /*char driver open function*/
 int pcd_open(struct inode *inode, struct file *filp)
 {pr_info("open was successful\n");
- printk(KERN_INFO "Device File Opened...!!!\n");
+ //printk(KERN_INFO "Device File Opened...!!!\n");
  return 0;
 }
 
 /*char driver release function*/
 int pcd_release(struct inode *inode, struct file *flip)
 {pr_info("release was successful\n");
- printk(KERN_INFO "Device File Closed...!!!\n");
+ //printk(KERN_INFO "Device File Closed...!!!\n");
  return 0;
 }
  
@@ -112,11 +112,11 @@ loff_t pcd_lseek(struct file *filp, loff_t offset, int whence)
 
 /* file operations of the driver */
 struct file_operations pcd_fops=
-{.open    = pcd_open,
+{.owner   = THIS_MODULE,
+ .open    = pcd_open,
  .release = pcd_release,
  .read    = pcd_read,
- .write   = pcd_write,
- .owner   = THIS_MODULE
+ .write   = pcd_write
 };
 
 /***************************************************************************************************************************************/

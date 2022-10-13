@@ -4,11 +4,12 @@
 # n : Do not compile the module
 # y : compile the module and link with kernel image
 # n : compile as dynamically lodable kernel module  
-# kbuild system will build main.o from main.c and after linking, will result in kernel module main.ko  
+# kbuild system will build main.o from main.c and after linking, will result in kernel module main.ko   
+# uname -r = 5.15.0-50-generic
 
 obj-m := CharDriver.o
 
-KDIR = /lib/modules/5.15.0-48-generic/build/
+KDIR = /lib/modules/5.15.0-50-generic/build/
 
 all:
 	make -C $(KDIR) M=$(PWD) modules

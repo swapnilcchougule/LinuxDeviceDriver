@@ -17,11 +17,11 @@ int main()
  char option;  // variable for selecting option
  printf("Welcome to character device driver Application. \n" );
  
- fd = open("/dev/pcd",O_RDWR); // open the file driver file created. open(path,mode)
+ fd = open("/dev/PusoCharDriver_Swapnil",O_RDWR); // open the file driver file created. open(path,mode)
                                // O_RDWR: read and write. (O_RDONLY,O_WRONLY,O_CREAT,O_EXCL)
  if(fd < 0)                    // if file does not exist in directory 
  {printf("Cannot open device file \n"); // print 
-  return 0;
+ // return 0;
  }
  
  while(1)
