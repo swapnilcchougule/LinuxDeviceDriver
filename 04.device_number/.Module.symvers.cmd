@@ -1,0 +1,1 @@
+cmd_/home/swapnil/Desktop/Books/Johannes4Linux/04.device_number/Module.symvers := sed 's/\.ko$$/\.o/' /home/swapnil/Desktop/Books/Johannes4Linux/04.device_number/modules.order | scripts/mod/modpost -m -a  -o /home/swapnil/Desktop/Books/Johannes4Linux/04.device_number/Module.symvers -e -i Module.symvers   -T -
