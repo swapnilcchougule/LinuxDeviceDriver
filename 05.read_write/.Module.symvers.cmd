@@ -1,0 +1,1 @@
+cmd_/home/swapnil/Desktop/Books/Johannes4Linux/05.read_write/Module.symvers := sed 's/\.ko$$/\.o/' /home/swapnil/Desktop/Books/Johannes4Linux/05.read_write/modules.order | scripts/mod/modpost -m -a  -o /home/swapnil/Desktop/Books/Johannes4Linux/05.read_write/Module.symvers -e -i Module.symvers   -T -

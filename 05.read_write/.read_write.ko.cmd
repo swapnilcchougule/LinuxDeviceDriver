@@ -1,0 +1,1 @@
+cmd_/home/swapnil/Desktop/Books/Johannes4Linux/05.read_write/read_write.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/swapnil/Desktop/Books/Johannes4Linux/05.read_write/read_write.ko /home/swapnil/Desktop/Books/Johannes4Linux/05.read_write/read_write.o /home/swapnil/Desktop/Books/Johannes4Linux/05.read_write/read_write.mod.o;  true
