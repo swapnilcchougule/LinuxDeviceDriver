@@ -1,1 +1,1 @@
-cmd_/home/swapnil/Desktop/Books/Johannes4Linux/04.device_number/modules.order := {   echo /home/swapnil/Desktop/Books/Johannes4Linux/04.device_number/dev_nr.ko; :; } | awk '!x[$$0]++' - > /home/swapnil/Desktop/Books/Johannes4Linux/04.device_number/modules.order
+cmd_/home/swapnil/Desktop/GIT/LinuxDeviceDriver/04.device_number/modules.order := {   echo /home/swapnil/Desktop/GIT/LinuxDeviceDriver/04.device_number/dev_nr.ko; :; } | awk '!x[$$0]++' - > /home/swapnil/Desktop/GIT/LinuxDeviceDriver/04.device_number/modules.order

@@ -1,1 +1,1 @@
-cmd_/home/swapnil/Desktop/Books/Johannes4Linux/04.device_number/dev_nr.mod := { echo  /home/swapnil/Desktop/Books/Johannes4Linux/04.device_number/dev_nr.o;  echo; } > /home/swapnil/Desktop/Books/Johannes4Linux/04.device_number/dev_nr.mod
+cmd_/home/swapnil/Desktop/GIT/LinuxDeviceDriver/04.device_number/dev_nr.mod := { echo  /home/swapnil/Desktop/GIT/LinuxDeviceDriver/04.device_number/dev_nr.o;  echo; } > /home/swapnil/Desktop/GIT/LinuxDeviceDriver/04.device_number/dev_nr.mod
