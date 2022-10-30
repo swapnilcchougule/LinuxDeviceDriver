@@ -1,0 +1,1 @@
+cmd_/home/swapnil/Desktop/GIT/LinuxDeviceDriver/06.Structure_LDD/02.Led_driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/swapnil/Desktop/GIT/LinuxDeviceDriver/06.Structure_LDD/02.Led_driver/modules.order | scripts/mod/modpost -m -a  -o /home/swapnil/Desktop/GIT/LinuxDeviceDriver/06.Structure_LDD/02.Led_driver/Module.symvers -e -i Module.symvers   -T -

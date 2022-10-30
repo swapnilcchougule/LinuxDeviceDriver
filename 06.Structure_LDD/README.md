@@ -10,5 +10,7 @@ ls -l /dev/led               	     // list the led driver
 echo 1 >/dev/led 		     // write 0 led driver file 
 echo 0 >/dev/led 	             // write 0 led driver file 
 
+cat /proc/iomem
+
 ~~~~~
 

@@ -1,0 +1,1 @@
+cmd_/home/swapnil/Desktop/GIT/LinuxDeviceDriver/06.Structure_LDD/02.Led_driver/drvled.mod := { echo  /home/swapnil/Desktop/GIT/LinuxDeviceDriver/06.Structure_LDD/02.Led_driver/drvled.o;  echo; } > /home/swapnil/Desktop/GIT/LinuxDeviceDriver/06.Structure_LDD/02.Led_driver/drvled.mod
