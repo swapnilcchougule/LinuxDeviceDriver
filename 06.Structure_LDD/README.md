@@ -12,5 +12,7 @@ echo 0 >/dev/led 	             // write 0 led driver file
 
 cat /proc/iomem
 
+
+ls /sys/class/leds/         // list the leds
 ~~~~~
 
