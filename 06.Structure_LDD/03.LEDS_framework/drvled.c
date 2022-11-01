@@ -18,13 +18,10 @@ Step 3: Register the char driver in the kernel with cdev_init() and cdev_add() .
 #define DRIVER_NAME "drvled"  // define driver name
 #define LED_OFF 	0
 #define LED_ON		1
-
 #define GPIO1_BASE	0x0209c0000     // base address of GPIO1 controller
 #define GPIO1_SIZE	8
-
 #define GPIO1_REG_DATA	8
 #define GPIO1_REG_DIR	4
-
 #define GPIO_BIT	(1 << 9)
 
 struct drvled_data_st
